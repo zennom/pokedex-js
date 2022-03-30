@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/card.css">
 </head>
 <body>
     <div class="pokedex">
         <div class="pokemon-cards">
-            <div class="pokemon-card">
+            <div class="pokemon-card open">
                 <div class="card-top">
                     <div class="details">
                         <h2 class="name">Pikachu</h2>
@@ -196,6 +199,37 @@
                 </div>
             </div>
         </div>
+
+        <nav class="listagem">
+            <ul>
+              <li class="pokemon ativo" id="pikachu">
+                <img src="src/images/cabeca-pikachu.png" alt="cabeça do pikachu" />
+                <span>Pikachu</span>
+              </li>
+              <li class="pokemon" id="bulbasaur">
+                <img src="src/images/cabeca-bulbasaur.png" alt="cabeça do bulbasaur" />
+                <span>Bulbasaur</span>
+              </li>
+              <li class="pokemon" id="charmander">
+                <img src="src/images/cabeca-charmander.png" alt="cabeça do charmander" />
+                <span>Charmander</span>
+              </li>
+              <li class="pokemon" id="squirtle">
+                <img src="src/images/cabeca-squirtle.png" alt="cabeça do gyarados" />
+                <span>Squirtle</span>
+              </li>
+              <li class="pokemon" id="gengar">
+                <img src="src/images/cabeca-gengar.png" alt="cabeça do gengar" />
+                <span>Gengar</span>
+              </li>
+              <li class="pokemon" id="dragonite">
+                <img src="src/images/cabeca-dragonite.png" alt="cabeça do dragonite" />
+                <span>Dragonite</span>
+              </li>
+            </ul>
+          </nav>
+
     </div>
+
 </body>
 </html>

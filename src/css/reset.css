@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    /*removendo as bolinhas da lista */
+    list-style-type:none;
+}

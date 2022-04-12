@@ -1,12 +1,9 @@
 .pokemon-card{
-    background-color: blue;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
-    /*USE O DISPLAY NONE PARA FAZER OS CARDS SUMIREM */
     display: none;
 }
 .pokemon-card .card-top{
-    background-color: bisque;
     padding: 30px 40px 0;
 }
 .pokemon-card .name{
@@ -30,7 +27,6 @@
 .pokemon-card .card-img{
     width: 350px;
     height: 350px;
-    background-color: pink;
 }
 .pokemon-card img{
     max-height: 100%;
@@ -44,7 +40,6 @@
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
-/*arrumando a tag h3 */
 .pokemon-card .card-info h3{
     font-size: 20px;
     margin-bottom: 15px;
@@ -54,7 +49,6 @@
     padding: 0px;
     width: 180px;
 }
-/* colocando a linha pequena no status e hailidades com border*/
 .pokemon-card .card-info .ability ul li{
    border-bottom:  1px solid #C3C4C5;
    padding: 0px 0px 5px;
@@ -70,4 +64,28 @@
 
 .pokemon-card.open{
     display: block;
+}
+
+.fire-type{
+    background-color: #ED8A8B;
+}
+
+.eletric-type{
+    background-color: #FCC719;
+}
+
+.water-type{
+    background-color: #76BEFE;
+}
+
+.grass-type{
+    background-color: #49D0B0;
+}
+
+.dark-type{
+    background-color: #BA68C8;
+}
+
+.dragon-type{
+    background-color: #C29791;
 }

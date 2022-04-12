@@ -1,0 +1,40 @@
+.listagem{
+    max-width: 200px;
+}
+
+.listagem .pokemon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #6b727a;
+    color: #FFFF;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.15 ease-in-out;
+}
+
+.listagem .pokemon:hover{
+    transform: scale(1.10);
+}
+
+.listagem .pokemon img{
+    width: 25%;
+    border-radius: 50%;
+}
+
+.listagem .pokemon span{
+    /*posicionando melhor o texto da lista */
+    padding-right: 20px;
+}
+
+/* vamos criar uma class .ativo para
+que na hora de passar o mouse no pokemon ativo 
+o background mude de cor */
+.listagem .pokemon.ativo{
+    background-color: #FA6668;
+}
